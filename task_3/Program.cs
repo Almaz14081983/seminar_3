@@ -5,7 +5,7 @@
 
 Console.Clear();
 Console.Write("Ввведите целое число: ");
-int unser  = int.Parse(Console.ReadLine());
+int unser  = int.Parse(Console.ReadLine()!);
 int counter = 1;
 while (counter<= unser)
 {

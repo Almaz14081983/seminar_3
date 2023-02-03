@@ -3,7 +3,7 @@
 
 Console.Clear();
 Console.WriteLine("Ввведите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 int result = 0;
 
 if (number < 100)
