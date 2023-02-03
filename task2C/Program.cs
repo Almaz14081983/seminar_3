@@ -9,9 +9,9 @@ double Xa = double.Parse(Console.ReadLine());
 Console.Write("Введите координаты точки А, Ya = ");
 double Ya = double.Parse(Console.ReadLine());
 
-Console.Write("Введите координаты точки А, Xb = ");
+Console.Write("Введите координаты точки B, Xb = ");
 double Xb = double.Parse(Console.ReadLine());
-Console.Write("Введите координаты точки А, Yb = ");
+Console.Write("Введите координаты точки B, Yb = ");
 double Yb = double.Parse(Console.ReadLine());
 
 double sqrab = ((Xb - Xa)*(Xb - Xa) + (Yb - Ya)*(Yb - Ya));
