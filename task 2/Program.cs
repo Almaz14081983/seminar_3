@@ -3,7 +3,7 @@
 
 Console.Clear ();
 Console.Write("Ввведите номер четверти: ");
-int quarter  = int.Parse(Console.ReadLine());
+int quarter  = int.Parse(Console.ReadLine()!);
 if ((quarter >4) || (quarter <1))
 {
     Console.Write("нет четверти: ");

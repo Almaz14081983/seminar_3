@@ -2,7 +2,7 @@
 // показывает диапазон возможных координат точек в этой четверти (x и y).
 
 Console.Write("Введите номер четверти = ");
-int quarter = int.Parse(Console.ReadLine());
+int quarter = int.Parse(Console.ReadLine()!);
 
 if ((quarter >4) || (quarter <1)) Console.Write("нет четверти: ");
 
