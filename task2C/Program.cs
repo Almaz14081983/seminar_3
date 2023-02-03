@@ -5,17 +5,18 @@
 
 Console.Clear();
 Console.Write("Введите координаты точки А, Xa = ");
-double Xa = int.Parse(Console.ReadLine());
+double Xa = double.Parse(Console.ReadLine());
 Console.Write("Введите координаты точки А, Ya = ");
-double Ya = int.Parse(Console.ReadLine());
+double Ya = double.Parse(Console.ReadLine());
 
 Console.Write("Введите координаты точки А, Xb = ");
-double Xb = int.Parse(Console.ReadLine());
+double Xb = double.Parse(Console.ReadLine());
 Console.Write("Введите координаты точки А, Yb = ");
-double Yb = int.Parse(Console.ReadLine());
+double Yb = double.Parse(Console.ReadLine());
 
 double sqrab = ((Xb - Xa)*(Xb - Xa) + (Yb - Ya)*(Yb - Ya));
 double result = Math.Sqrt(sqrab);
 double result2 = Math.Round(result,2);
+// double result2 = result%1000;
 
 Console.Write($"расстояние между ними {result2}");
