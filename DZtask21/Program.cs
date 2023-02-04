@@ -22,6 +22,5 @@ double Zb = double.Parse(Console.ReadLine()!);
 double sqrab = ((Xb - Xa)*(Xb - Xa) + (Yb - Ya)*(Yb - Ya) + (Zb - Za)*(Zb - Za));
 double result = Math.Sqrt(sqrab);
 double result2 = Math.Round(result,2);
-// double result2 = result%1000;
 
-Console.Write($"расстояние между ними {result2}");
+Console.Write($"расстояние между двух точек {result2}");
